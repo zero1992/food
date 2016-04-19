@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,blockquote,th,td,p，span{margin:0;padding:0}/*清除样式*/
+body{font: 14px/18px Microsoft YaHei;margin-top: 0;margin-right: auto;margin-bottom: 0;margin-left: auto;}
+ul{ list-style:none}
+li {list-style:none;}
+dl,dt,dd{list-style:none;}
+img{border:0;vertical-align:bottom;}
+a{ text-decoration:none;color:#666;}
+.f18{font-size:18px;}
+.f14{font-size:14px;}
+
+
+.box{ width: 100%; margin: 0 auto;}
+.box-in{ width: 1120px;  margin: 0 auto;}
+.head{width: 1000px;margin: 0 auto;height: 48px;margin-top: 10px;}
+.logo{width: 170px;height: 48px;background: url(../images/tlogo2.png) no-repeat;float: left;}
+.login-reg{line-height: 46px;width: 150px;float: right;    text-align: right;}
+.login-reg a:active{ color:#ff5a00;}
+.login-reg a:hover{ color:#ff5a00;}
+.search{padding: 9px 5px;float: left;margin-left: 350px;position: relative;}
+.search-box{width:250px;height: 22px;color: #656262;border: 1px solid #ddd;padding: 4px;}
+.search-button {width: 60px;height: 32px;border: none;position: absolute;top: 9px;left: 264px;background: #ddd; color:#666;}
+.daohang{ width: 100%; background: #eee; height: 60px;box-shadow: 0  0px 10px rgba(0,0,0,0.3);    margin-top: 20px;}
+.daohang-in{ width: 1000px; height: 40px; padding: 10px 0; margin: 0 auto;}
+.daohang-in ul li{ width:140px; float: left;height: 40px; text-align: center; line-height: 40px;}
+.daohang-in ul li a{ font-size: 16px;}
+.banner{ width: 100%;}
+.banner ul li{ display:  none;}
+.banner .active{ display:  block;}
+
+.examination{ width: 1120px;  margin: 0 auto;    padding: 20px 20px;     text-align: center; }
+.examination span{ background: url(../images/line.jpg)   no-repeat bottom; margin-bottom: 5px;}
+.title-public{width:150px; margin: 0 auto; display: block; overflow: hidden;     height: 30px; line-height: 30px;}
+.class-01{ background: url(../images/01.png) no-repeat;width:98px; height:99px;}
+.class-list{ width: 1000px; margin: 0 auto;}
+.class-list li{width: 100px; float: left; height: 150px; text-align: center; display: block;margin-left: 50px; margin-right: 50px;}
+.class-list img{width: 98px; height: 99px;display: block;}
+.class-list span{width: 100px; height:30px;display: block;    margin-top: 5px; line-height: 30px;}
+.class-list img:hover{}
+.c1{ color: #ff5a00;}
+
+.news-box{ width: 100%; background: #f1f1f1;  float: left;margin-top: 60px; }
+.news{ width: 1120px; margin: 0 auto;padding: 20px 20px;}
+.news-public{width:150px; margin: 0 auto; display: block; overflow: hidden; height: 30px; line-height: 30px; text-align: center;}
+.news span{ background: url(../images/line.jpg)   no-repeat bottom; margin-bottom: 5px;}
+
+.news-list{ width: 1000px; margin: 0  auto;}
+.news-list li{width: 470px;float: left;margin-bottom: 20px;margin-left: 30px;margin-top: 20px;}
+.news-time{ width: 60px; height: 60px; float: left; background: #ff5a00; color: #fff;    margin-right: 10px;}
+.news-time h1{ width: 60px; height: 40px; line-height: 40px;text-align: center;}
+.news-time span{ width: 60px; height: 20px; line-height: 20px;}
+.news-font{width: 400px;text-align: left;    float: left;}
+.news-font h4{height: 20px; line-height: 20px; color: #000; display: block; }
+.news-font span{width: 400px; height: 40px;line-height: 20px;}
+.footer{width: 100%; float: left; margin-top: 30px;}
+.footer-in{ width: 500px; margin: 0 auto; line-height: 20px; text-align: center; }
+
+.news-box-in{width: 1120px; margin: 0 auto; margin-top: 20px;}
+.news-left-list{width: 300px; margin-right: 20px;  float: left; color: #fff;}
+.news-left-list ul li{ width: 280px; height: 30px; margin-bottom: 5px;  padding: 5px 5px; text-align: center; background: #d6d6d6;  line-height: 30px;}
+.news-left-list ul li a{color: #000; font-size: 14px;}
+.news-left-list ul li.news-title{ background: #000; font-size: 18px; color: #fff;}
+.news-details{ width: 800px; float: left;}
+.news-details h3{ width: 300px; margin: 0 auto; height: 45px; line-height: 45px; text-align: center;}
+.news-details h6{ width: 300px; margin: 0 auto; height: 45px; line-height: 45px; text-align: center;    color: #a4a3a3;}
+.news-details p{ text-indent:2em; }
+
+.list-inf{width: 800px; float: left;}
+.list-title{ border-bottom: 8px solid #E4E4E4; height: 45px; font-size: 16px;text-align: center;}
+.list-title span{ width: 100px;  line-height: 45px; float: left;  }
+.list-title font{ width: 200px; line-height: 45px; float: right; color: #000; }
+.list-title font a{color: #000;}
+.news-content{ margin-top: 10px;    margin-bottom: 20px;}
+.news-content ul li { height: 35px; border-bottom: 1px dashed #fff; line-height: 35px; background: url(../images/li.png) no-repeat left center; padding: 0 0 0 15px;}
+.news-content ul li a{color:#000;}
+.news-content span{ float: right; text-align: center; width: 200px;}
+
+.stock-page{ width: 300px; height: 30px;  margin: 0 auto;  margin-top: 30px; margin-bottom: 10px;}
+.stock-page ul li{ width: 30px; height: 30px; display: block;  margin-left: 2px; float: left; border: 1px solid #eeeeee; text-align: center; line-height: 30px; color: #396eb3;}
+.stock-page ul li a:hover{ width: 30px; height: 30px; display: block;background: #ff5a00; color: #fff;}
+
+
+
+.application{ width:1100px;margin:0 auto;margin-top: 30px;}
+.application h1{width: 345px; height: 45px; display:  block; margin: 0 auto; line-height: 45px; text-align: center; color: #003a5d;}
+.application font{width: 345px; height: 20px;display: block; margin: 0 auto; text-align: center;  color: #5a5a5a;}
+.application ul { width: 1100px; height: 300px; display: block;}
+.application ul li{ width: 200px; height: 260px;  display: block;  float: left; border:1px solid #ededed; 	box-shadow: 5px 5px 0 #ededed; margin-left: 15px; margin-bottom: 20px;}
+.application img{width: 194px; height: 162px;  display: block;padding: 5px 3px;  }
+.application-more{width: 126px; height: 30px; display: block; margin:0 auto; background: url(../images/introduce-more.png) no-repeat; text-align: center; line-height: 30px;}
+.application ul li font{ width: 194px; height:30px;  display: block;line-height: 30px; text-align: center;}
+.application ul li span{ width: 194px; height:60px;  display: block; line-height: 30px; text-align: center; margin:0 auto;}
+
+
+

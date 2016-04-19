@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.slider.css" />
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+	$(".slider").slideshow({
+		width: 1200,
+		height: 242,
+		transition: ['bar', 'Rain', 'square', 'squareRandom', 'explode']
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="box">
+	<div class="logo-box">
+		<div class="logo"></div>
+	</div>
+	<div class="banner">
+		<div style="width:1200px; height:242px;margin:0 auto;"class="banner-in">
+	    <div class="slider">
+		   <div><a href="#"><img src="images/datouwang1.jpg" alt=""></a></div>
+		   <div><a href="#"><img src="images/datouwang2.jpg" alt=""></a></div>
+		   <div><a href="#"><img src="images/datouwang3.jpg" alt=""></a></div>
+	   </div>
+       </div>
+	</div>
+	<div class="login-box">
+		 <div class="login-left fl">
+		 	<span>在线精准工程管理系统</span>
+		 	<button type="button" class="login-button">进入官网</button>
+	     </div>
+	     <div class="login-right fl">
+	     	<ul>
+	     		<li>
+	     			<label class="people"><img src="images/people.png"></label>
+	     			<font>单位名称/账号</font>
+	     			<input class="input-box">
+	     		</li>
+	     		<li>
+	     			<label class="people"><img src="images/people.png"></label>
+	     			<font><div style="width:65px; float:left;">密</div>码</font>
+	     			<input class="input-box">
+	     		</li>
+	     		<li>
+	     			<label class="people"><img src="images/people.png"></label>
+	     			<font><div style="width:33px; float:left;">验</div><div style="width:33px; float:left;">证</div>码</font><img src="images/yzm.png" class="fr">
+	     			<input class="input-box yzm">
+	     		</li>
+	     		<li>
+	     			<button class="login">登录</button>
+	     		</li>
+	     	</ul>
+	     </div>
+	</div>
+</div>
+          
+</body>
+</html>

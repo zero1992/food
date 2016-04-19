@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>食疗网</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+               var p=1;//0
+               function time(){
+                   //清除li标签样式
+                   var ulpic=document.getElementById("banner-pic");//获取ul标签
+                   var pic_lis=ulpic.getElementsByTagName('li');
+                   //childNodes 获取ul下所有的标签节点 这边应该使用getElementByTagName
+                   for(var i=0;i<pic_lis.length;i++){
+                       pic_lis[i].removeAttribute('class');
+                   }
+                   pic_lis[p++%3].setAttribute("class","active");
+                }
+
+                window.onload=function(){
+                    setInterval(time,8000);
+                }
+</script>
+</head>
+
+<body>
+<div class="box">
+		<div class="head">
+			<a href="index.html"><div class="logo"></div></a>
+			<div class="search">
+				<input class="search-box" value="请输入菜谱/食材/菜单">
+				<button class="search-button" value="搜索">搜索</button>
+			</div>
+			<div class="login-reg"><a href="login.html">登录</a>|<a href="#">注册</a>|<a href="#">联系我们</a></div>
+		</div>
+		<div class="daohang">
+			<div class="daohang-in">
+				 <ul>
+				 	<li><a href="#">首页</a></li>
+				 	<li><a href="#">食疗菜谱</a></li>
+				 	<li><a href="#">养生资讯</a></li>
+				 	<li><a href="#">食物相克</a></li>
+				 	<li><a href="#">当季食材</a></li>
+				 	<li><a href="#">产品中心</a></li>
+				 	<li><a href="#">联系我们</a></li>
+				 </ul>
+			</div>
+		</div>
+        <div class="banner">
+              <ul id="banner-pic">
+                   <li class="active"><img src="images/banner-1.jpg" width="100%"></li>
+                   <li><img src="images/banner-2.jpg" width="100%"></li>
+                   <li><img src="images/banner-3.jpg" width="100%"></li>
+              </ul>
+         </div>
+         <div class="application">
+                    <h1>食疗菜谱</h1><font>Menu</font>
+                    <ul>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp1.jpg">
+                            <font>鲫鱼萝卜汤</font>
+                            <span>滋阴润肺，特别适合感冒。</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp2.jpg">
+                            <font>核桃葱姜汤</font>
+                            <span>适用于发烧发热恶寒，鼻塞流涕。</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp3.jpg">
+                            <font>葱姜饮</font>
+                            <span>发表，解毒。用治外感初周身疼痛、恶寒怕冷等症状...</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp4.jpg">
+                            <font>芥蓝牛柳</font>
+                            <span>中医湿热体质养生</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp5.jpg">
+                            <font>荷叶绿豆粥</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp1.jpg">
+                            <font>艺术设计</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp4.jpg">
+                            <font>艺术设计</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp3.jpg">
+                            <font>艺术设计</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp1.jpg">
+                            <font>艺术设计</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="case.html">
+                            <img src="images/cp2.jpg">
+                            <font>艺术设计</font>
+                            <span>Art Design</span>
+                          </a>
+                        </li>
+                    </ul>
+                    <div class="application-more"><a href="case.html">查看更多&gt;&gt;</a></div>
+               </div>
+
+		<div class="news-box">
+	
+		  <ul class="news-list">
+		  	<li>
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  	    
+                <a href="news-details.html">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  	<li>
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  		<a href="news-details.html">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  	<li>
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  		<a href="news-details.html">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  	<li>
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  		<a href="news-details.html">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  	<li>	  		
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  		<a href="news-details.html">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  	<li>
+		  		
+		  			<div class="news-time">
+		  				<h1>27</h1>
+		  				<span>2016/03</span>
+		  			</div>
+		  		<a href="#">
+		  			<div class="news-font">
+		  				<h4>这个是你新闻的标题的啊！！！</h4>
+		  				<span>这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊，这个是你新闻的内容啊。</span>
+		  			</div>
+		  		</a>
+		  	</li>
+		  </ul>
+		</div>
+		<div class="footer">
+			<div class="footer-in"><p>Copyright © 1996-2016 HUVTC Corporation, All Rights Reserved</p><p> 湖州市职业技术学院 版权所有</p></div>
+		</div>
+	
+</div>
+</body>
+</html>
