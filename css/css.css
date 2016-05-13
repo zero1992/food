@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 .box{width: 100%; height: 100%;}
-.logo-box{ width: 1200px; height: 240px;  margin: 0 auto;}
+.logo-box{ width: 1200px; height: 174px;  margin: 0 auto;}
 
-.logo{width: 730px; height: 240px; margin: 0 auto; background: url(../images/logo.jpg) no-repeat;}
+
+.login-logo{width: 730px; height: 174px; margin: 0 auto; background: url(../images/login-logo.jpg) no-repeat;}
 .banner{ width: 100%; height: 260px; background: url(../images/banner-bj.jpg) 50%;}
 .banner-in{padding: 8px  0 0px 0 ;}
 .login-box{ width:800px; height: 260px; margin: 0 auto; margin-top: 30px;}
@@ -43,3 +44,38 @@
 .jquery-slider-wrapper .caption{padding:6px 10px;background:#333333;font-size:13px;position:absolute;bottom:10px;left:10px;color:#FFFFFF;}
 .jquery-slider-timer{color:#000000;height:3px;width:100%;position:absolute;bottom:0;left:0;z-index:4;}
 .jquery-slider-timer-bar{background:#000000;opacity:0.5;height:3px;width:0;float:left;display:inline;}
+
+.ny-news-box{ width: 100%; background: #f1f1f1;  float: left; }
+.news-box-in{width: 1120px; margin: 0 auto; margin-top: 20px;}
+.news-left-list{width: 300px; margin-right: 20px;  float: left; color: #fff;}
+.news-left-list ul li{ width: 280px; height: 40px; margin-bottom: 2px;  padding: 5px 5px; text-align: center; background: #d6d6d6;  line-height: 40px;}
+.news-left-list ul li a{color: #000; font-size: 14px;}
+.news-left-list ul li.news-title{font-size: 18px; color:#fff; background:url(../images/menu.png) right  no-repeat #000; }
+.news-left-list ul li.list-bottom{ height: 60px;    padding: 10px 5px; background: #9fb71b;    line-height: 30px;}
+.news-left-list ul li{ width: 280px; height: 40px; margin-bottom: 2px;  padding: 5px 5px; text-align: center; background: #d6d6d6;  line-height: 40px;}
+.news-left-list ul li a{color: #000; font-size: 14px;}
+.news-left-list ul li.news-title{font-size: 18px; color:#fff; background:url(../images/menu.png) right  no-repeat #000; }
+.news-left-list ul li.list-bottom{ height: 60px;    padding: 10px 5px; background: #9fb71b;    line-height: 30px;}
+
+.list-bottom span{ color: #fff; font-size: 20px;}
+.list-bottom font{ color: #fff; font-size: 20px;}
+.list-bottom font a.list-style{ color: #fff; font-size: 18px;}
+.list-bottom span a.list-style{ color: #fff; font-size: 18px;}
+.news-details{ width: 800px; float: left;}
+.news-details h3{ width: 300px; margin: 0 auto; height: 45px; line-height: 45px; text-align: center;}
+.news-details h6{ width: 300px; margin: 0 auto; height: 45px; line-height: 45px; text-align: center;    color: #a4a3a3;}
+.news-details p{ text-indent:2em; }
+
+.list-inf{width: 800px; float: left;}
+.list-title{ border-bottom: 2px solid #E4E4E4; height: 45px; font-size: 16px; text-align: center;}
+.list-title span{ width: 100px;  line-height: 45px; float: left;  }
+.list-title font{ width: 200px; line-height: 45px; float: right; color: #000;    font-size: 12px; }
+.list-title font a{color: #000;}
+.news-content{ margin-top: 10px;    margin-bottom: 20px;}
+.news-content ul li { height: 35px; border-bottom: 1px dashed #fff; line-height: 35px; background: url(../images/li.png) no-repeat left center; padding: 0 0 0 15px;}
+.news-content ul li a{color:#000;}
+.news-content span{ float: right; text-align: center; width: 200px;}
+
+.stock-page{ width: 300px; height: 30px;  margin: 0 auto;  margin-top: 30px; margin-bottom: 10px;}
+.stock-page ul li{ width: 30px; height: 30px; display: block;  margin-left: 2px; float: left; border: 1px solid #eeeeee; text-align: center; line-height: 30px; color: #396eb3;}
+.stock-page ul li a:hover{ width: 30px; height: 30px; display: block;background: #ff5a00; color: #fff;}
